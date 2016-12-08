@@ -1,0 +1,9 @@
+CMPT300 A4
+
+In user space test code, sysinfo->pid is assigned to be getpid() in line 38
+If you wish to test for other pid, simply change this value
+
+Also, the test code is implemented to run BOTH the dummy call in part 1 (line 34) and prinfo syscall.
+If this gives you error, just remove the dummy syscall.
+
+- by Jason Chan
